@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.Optional;
 
-import static com.sun.tools.javac.jvm.ByteCodes.ret;
 
 @Controller
 class ShopController {
