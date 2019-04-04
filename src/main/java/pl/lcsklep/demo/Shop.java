@@ -50,4 +50,14 @@ class Shop {
     public void setTargetAudience(TargetAudience targetAudience) {
         this.targetAudience = targetAudience;
     }
+
+    @Override
+    public String toString() {
+        return "Shop{" +
+                "id=" + id +
+                ", products='" + products + '\'' +
+                ", registrationDate=" + registrationDate +
+                ", targetAudience=" + targetAudience +
+                '}';
+    }
 }
