@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Sklep</title>
 </head>
 <body>
+
+h1 th:text="${shop}"></h1>
+<p th:text="|Produkty : ${shop.products}|"></p>
+<p th:text="|Data: ${shop.registrationDate}|"></p>
+<p th:text="|sprzedaż: ${shop.sales}|"></p>
 
 </body>
 </html>

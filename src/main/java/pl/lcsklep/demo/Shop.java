@@ -43,6 +43,18 @@ class Shop {
         this.registrationDate = registrationDate;
     }
 
+    public long getSales() {
+        return sales;
+    }
+
+    public void setSales(long sales) {
+        this.sales = sales;
+    }
+
+    private long sales;
+    @Enumerated(EnumType.STRING)
+
+
     public TargetAudience getTargetAudience() {
         return targetAudience;
     }
